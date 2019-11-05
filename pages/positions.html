@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>fonts and positions</title>
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oxygen:300,400,700&display=swap" rel="stylesheet">
+        <style type="text/css">
+            /*reset*/
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            /*fonts en LOCAL*/
+            @font-face{
+                font-family:oswald;
+                src:url('../fonts/oswald/Oswald-Bold-Cut.tff');
+                src:url('../fonts/oswald/Oswald-Bold-Cut.svg'); 
+                src:url('../fonts/oswald/Oswald-Bold-Cut.eot'); 
+                src:url('../fonts/oswald/Oswald-Bold-Cut.woff'); 
+            }
+            
+            header{
+                font-family: "oswald";
+                text-align: center;
+                float: left;
+                background-color: cyan;
+                color: white;
+                width: 50%;
+                height: 30vh;
+                font-size: 50px;
+            }
+            main{
+                font-family: "oswald";
+                text-align: center;
+                float: right;
+                background-color: magenta;
+                color: white;
+                width: 50%;
+                height: 30vh;
+                font-size: 50px;
+            }
+            aside{
+                font-family: "oswald";
+                text-align: center;
+                float: left;
+                background-color: yellow;
+                color: white;
+                width: 50%;
+                height: 30vh;
+                font-size: 50px;
+            }
+            footer{
+                font-family: "oswald";
+                text-align: center;
+                float: right;
+                background-color: black;
+                color: white;
+                width: 50%;
+                height: 30vh;
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+           <a href="#">
+               <a href="cyan.html"><header>C</header></a>
+           </a>
+           <a href="#">
+               <a href="magenta.html"><main>M</main></a>
+           </a>
+           <a href="#">
+               <a href="yellow.html"><aside>Y</aside></a>
+           </a>
+           <a href="#">
+               <a href="black.html"><footer>K</footer></a>
+           </a>
+        </div>
+    </body>
+</html>
